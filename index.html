@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"> <!-- Google font -->
-        <link rel="stylesheet" href="./static/style.css">
-        <script src="./static/script.js"></script>
-        <title>Your Page Title</title>
-    </head>>
-<body>
-    <div class="menu-bar" role="button" tabindex="0" onclick="toggleMenu(event)" onkeydown="toggleMenu(event)" aria-label="Menu Button">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap">
+    <link rel="stylesheet" href="./static/style.css">
+    <script src="./static/script.js" defer></script>
+    <!-- Set primary color scheme for the browser -->
+    <meta name="color-scheme" content="dark light">
+    <title>Your Page Title</title>
+</head>
+<body class="dark-theme">
+    <div id="menu-button" class="menu-bar" role="button" tabindex="0" aria-label="Menu Button">
         ☰ Menu
     </div>
-    
-    <nav id="menu" aria-label="Main Navigation">
+    <nav id="nav" aria-label="Main Navigation">
         <ul id="nav-list" class="nav-list">
             <li><a href="#img">Images</a></li>
             <li><a href="#aboutme">About Me</a></li>
@@ -23,14 +24,13 @@
         <img src="/static/images/GFX NEW.png" alt="Background image" class="responsive-image">
     </div>
     <section class="about" id="aboutme">
-        <div class="pfp-container">
+        <div class="pfp-image">
             <img src="/static/images/pfp2.png" alt="Profile picture" class="pfp-image">
         </div>
-    
         <div class="text">
             <h2>About Me</h2>
             <p>
-                Hi there! I'm TDSR, a passionate youtuber and a gamer. I love exploring new technologies and creating interesting projects. In my free time, you can find me programming or gaming.
+                Hi there! I'm TDSR, a passionate YouTuber and a gamer. I love exploring new technologies and creating interesting projects. In my free time, you can find me programming or gaming.
             </p>
             <p>
                 Connect with me on <a href="https://twitter.com/TDSR_random" target="_blank" class="x" rel="noopener noreferrer">Twitter</a> for updates and random thoughts.
